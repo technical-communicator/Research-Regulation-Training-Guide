@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search human subjects research regulations across all governing bodies.">
+  <title>Search Regulations | Research Regulations Guide</title>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="flex items-center justify-between header-flex">
+        <h1 class="site-title">
+          <a href="index.html">Research Regulations Guide</a>
+        </h1>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="regulations/index.html">Regulations</a></li>
+            <li><a href="topics/index.html">Topics</a></li>
+            <li><a href="resources/index.html">Resources</a></li>
+            <li><a href="search.html">Search</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="main-content">
+    <div class="container">
+
+      <!-- Breadcrumbs -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumbs-separator">/</span>
+        <span>Search</span>
+      </nav>
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <h1 class="page-title">Search Regulations</h1>
+        <p class="page-description">
+          Search across all regulations by keyword, requirement, jurisdiction, or topic.
+        </p>
+      </header>
+
+      <!-- Search Bar -->
+      <div class="search-container">
+        <div class="search-bar">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="Search for regulations, topics, requirements..."
+            aria-label="Search regulations"
+            autocomplete="off"
+          >
+        </div>
+        <p class="text-center text-secondary mt-sm">
+          Try searching for: "informed consent", "IRB", "data privacy", "FDA", "GDPR"
+        </p>
+      </div>
+
+      <!-- Search Results -->
+      <div id="search-results" class="grid grid-cols-1 gap-lg">
+        <div class="alert alert-info">
+          <p>Enter a search term to find relevant regulations and requirements.</p>
+        </div>
+      </div>
+
+      <!-- Additional Help -->
+      <section class="mt-2xl">
+        <div class="card">
+          <h3 class="card-title">Search Tips</h3>
+          <ul class="card-content">
+            <li>Use keywords related to your research area (e.g., "clinical trials", "consent")</li>
+            <li>Search by jurisdiction (e.g., "FDA", "EU", "International")</li>
+            <li>Look for specific topics (e.g., "vulnerable populations", "data protection")</li>
+            <li>Search results highlight where your query was found in each regulation</li>
+          </ul>
+        </div>
+
+        <div class="grid grid-cols-1 grid-cols-md-2 gap-lg mt-lg">
+          <div class="card">
+            <h4 class="card-title">Browse by Regulation</h4>
+            <p class="card-content">
+              View all regulations organized by jurisdiction and category.
+            </p>
+            <a href="regulations/index.html" class="card-link">Browse regulations</a>
+          </div>
+
+          <div class="card">
+            <h4 class="card-title">Browse by Topic</h4>
+            <p class="card-content">
+              Explore regulations organized by common research topics.
+            </p>
+            <a href="topics/index.html" class="card-link">Browse topics</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Regulations</h3>
+          <ul>
+            <li><a href="regulations/fda.html">FDA Regulations</a></li>
+            <li><a href="regulations/common-rule.html">Common Rule</a></li>
+            <li><a href="regulations/ich-gcp.html">ICH-GCP</a></li>
+            <li><a href="regulations/helsinki.html">Declaration of Helsinki</a></li>
+            <li><a href="regulations/gdpr.html">GDPR</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Topics</h3>
+          <ul>
+            <li><a href="topics/informed-consent.html">Informed Consent</a></li>
+            <li><a href="topics/irb-review.html">IRB Review</a></li>
+            <li><a href="topics/vulnerable-populations.html">Vulnerable Populations</a></li>
+            <li><a href="topics/data-privacy.html">Data Privacy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="resources/glossary.html">Glossary</a></li>
+            <li><a href="resources/quick-reference.html">Quick Reference</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="regulations/comparison.html">Compare Regulations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>About</h3>
+          <ul>
+            <li><a href="https://github.com/technical-communicator/Research-Regulation-Training-Guide">GitHub Repository</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Research Regulations Guide. Educational resource for research compliance.</p>
+        <p class="mt-sm">Last updated: <span class="last-updated">2025-11-17</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>

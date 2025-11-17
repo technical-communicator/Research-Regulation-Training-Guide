@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Overview of human subjects research regulations including FDA, OHRP Common Rule, ICH-GCP, Declaration of Helsinki, HIPAA, and GDPR.">
+  <title>Research Regulations Overview | Research Regulations Guide</title>
+
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="flex items-center justify-between header-flex">
+        <h1 class="site-title">
+          <a href="../index.html">Research Regulations Guide</a>
+        </h1>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Regulations</a></li>
+            <li><a href="../topics/index.html">Topics</a></li>
+            <li><a href="../resources/index.html">Resources</a></li>
+            <li><a href="../search.html">Search</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="main-content">
+    <div class="container">
+
+      <!-- Breadcrumbs -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="../index.html">Home</a>
+        <span class="breadcrumbs-separator">/</span>
+        <span>Regulations</span>
+      </nav>
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <h1 class="page-title">Research Regulations</h1>
+        <p class="page-description">
+          Comprehensive overview of human subjects research regulations across all major governing bodies and jurisdictions.
+        </p>
+      </header>
+
+      <!-- Filter Options -->
+      <div class="filter-panel">
+        <div class="filter-group">
+          <label class="filter-label">Filter by Jurisdiction:</label>
+          <div class="filter-options">
+            <label class="filter-checkbox">
+              <input type="checkbox" checked data-filter="jurisdiction" value="us">
+              <span>United States</span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" checked data-filter="jurisdiction" value="international">
+              <span>International</span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" checked data-filter="jurisdiction" value="eu">
+              <span>European Union</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label">Filter by Category:</label>
+          <div class="filter-options">
+            <label class="filter-checkbox">
+              <input type="checkbox" checked data-filter="category" value="human-subjects">
+              <span>Human Subjects Protection</span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" checked data-filter="category" value="irb">
+              <span>IRB Requirements</span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" checked data-filter="category" value="clinical-trials">
+              <span>Clinical Trials</span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" checked data-filter="category" value="data-privacy">
+              <span>Data Privacy</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- US Regulations -->
+      <section id="us" class="regulation-section">
+        <h2>🇺🇸 United States Federal Regulations</h2>
+
+        <div class="grid grid-cols-1 gap-lg mt-lg">
+
+          <div class="card" data-jurisdiction="us" data-category="human-subjects">
+            <div class="flex justify-between items-center mb-md">
+              <h3 class="card-title mb-0">FDA 21 CFR Part 50</h3>
+              <span class="badge badge-primary">US</span>
+            </div>
+            <p class="text-secondary mb-sm"><strong>Protection of Human Subjects</strong></p>
+            <p class="card-content">
+              Establishes standards for informed consent and safeguards the rights, safety, and welfare of subjects in clinical investigations regulated by the FDA.
+            </p>
+            <div class="meta-item mt-md">
+              <span class="meta-label">Topics:</span>
+              <span>Informed Consent, Vulnerable Populations, Emergency Research</span>
+            </div>
+            <a href="fda.html" class="card-link">View details</a>
+          </div>
+
+          <div class="card" data-jurisdiction="us" data-category="irb">
+            <div class="flex justify-between items-center mb-md">
+              <h3 class="card-title mb-0">FDA 21 CFR Part 56</h3>
+              <span class="badge badge-primary">US</span>
+            </div>
+            <p class="text-secondary mb-sm"><strong>Institutional Review Boards</strong></p>
+            <p class="card-content">
+              Establishes requirements for the organization, composition, function, and operation of IRBs that review FDA-regulated clinical investigations.
+            </p>
+            <div class="meta-item mt-md">
+              <span class="meta-label">Topics:</span>
+              <span>IRB Review, Composition, Documentation</span>
+            </div>
+            <a href="fda.html#part-56" class="card-link">View details</a>
+          </div>
+
+          <div class="card" data-jurisdiction="us" data-category="human-subjects">
+            <div class="flex justify-between items-center mb-md">
+              <h3 class="card-title mb-0">Common Rule - 45 CFR Part 46</h3>
+              <span class="badge badge-primary">US</span>
+            </div>
+            <p class="text-secondary mb-sm"><strong>Federal Policy for Protection of Human Subjects</strong></p>
+            <p class="card-content">
+              Federal policy for the protection of human subjects, adopted by 20 federal departments and agencies. The 2018 revisions modernized and strengthened protections.
+            </p>
+            <div class="meta-item mt-md">
+              <span class="meta-label">Topics:</span>
+              <span>IRB Review, Informed Consent, Exempt Research, Vulnerable Populations</span>
+            </div>
+            <a href="common-rule.html" class="card-link">View details</a>
+          </div>
+
+          <div class="card" data-jurisdiction="us" data-category="data-privacy">
+            <div class="flex justify-between items-center mb-md">
+              <h3 class="card-title mb-0">HIPAA Privacy Rule</h3>
+              <span class="badge badge-primary">US</span>
+            </div>
+            <p class="text-secondary mb-sm"><strong>45 CFR Parts 160 and 164</strong></p>
+            <p class="card-content">
+              National standards to protect individuals' medical records and other individually identifiable health information, with specific provisions for research uses.
+            </p>
+            <div class="meta-item mt-md">
+              <span class="meta-label">Topics:</span>
+              <span>Data Privacy, PHI Protection, Authorization, De-identification</span>
+            </div>
+            <a href="hipaa.html" class="card-link">View details</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- International Standards -->
+      <section id="international" class="regulation-section">
+        <h2>🌍 International Standards</h2>
+
+        <div class="grid grid-cols-1 gap-lg mt-lg">
+
+          <div class="card" data-jurisdiction="international" data-category="clinical-trials">
+            <div class="flex justify-between items-center mb-md">
+              <h3 class="card-title mb-0">ICH E6(R2) Good Clinical Practice</h3>
+              <span class="badge badge-info">International</span>
+            </div>
+            <p class="text-secondary mb-sm"><strong>International Council for Harmonisation</strong></p>
+            <p class="card-content">
+              International ethical and scientific quality standard for designing, conducting, recording, and reporting trials that involve human subjects. Ensures data integrity and participant protection.
+            </p>
+            <div class="meta-item mt-md">
+              <span class="meta-label">Topics:</span>
+              <span>Clinical Trials, Quality Management, Investigator Responsibilities, Monitoring</span>
+            </div>
+            <a href="ich-gcp.html" class="card-link">View details</a>
+          </div>
+
+          <div class="card" data-jurisdiction="international" data-category="human-subjects">
+            <div class="flex justify-between items-center mb-md">
+              <h3 class="card-title mb-0">Declaration of Helsinki</h3>
+              <span class="badge badge-info">International</span>
+            </div>
+            <p class="text-secondary mb-sm"><strong>World Medical Association</strong></p>
+            <p class="card-content">
+              Statement of ethical principles for medical research involving human subjects. Foundational document that has influenced research ethics globally since 1964.
+            </p>
+            <div class="meta-item mt-md">
+              <span class="meta-label">Topics:</span>
+              <span>Research Ethics, Informed Consent, Risk Assessment, Vulnerable Populations</span>
+            </div>
+            <a href="helsinki.html" class="card-link">View details</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- EU Regulations -->
+      <section id="eu" class="regulation-section">
+        <h2>🇪🇺 European Union</h2>
+
+        <div class="grid grid-cols-1 gap-lg mt-lg">
+
+          <div class="card" data-jurisdiction="eu" data-category="data-privacy">
+            <div class="flex justify-between items-center mb-md">
+              <h3 class="card-title mb-0">General Data Protection Regulation (GDPR)</h3>
+              <span class="badge badge-secondary">EU</span>
+            </div>
+            <p class="text-secondary mb-sm"><strong>Regulation (EU) 2016/679</strong></p>
+            <p class="card-content">
+              Comprehensive data protection regulation covering the processing of personal data of EU residents, including in research contexts. Establishes strong data subject rights and accountability requirements.
+            </p>
+            <div class="meta-item mt-md">
+              <span class="meta-label">Topics:</span>
+              <span>Data Privacy, Data Rights, Privacy by Design, Data Protection Impact Assessments</span>
+            </div>
+            <a href="gdpr.html" class="card-link">View details</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Quick Actions -->
+      <section class="mt-2xl">
+        <div class="quick-ref-card">
+          <h3>Next Steps</h3>
+          <div class="grid grid-cols-1 grid-cols-md-2 gap-lg">
+            <div>
+              <h4>Compare Regulations</h4>
+              <p>Use our interactive comparison tool to view regulations side-by-side and understand key differences.</p>
+              <a href="comparison.html" class="btn btn-primary mt-md">Compare Now</a>
+            </div>
+            <div>
+              <h4>Browse by Topic</h4>
+              <p>Explore regulations organized by common topics like informed consent, IRB review, and data privacy.</p>
+              <a href="../topics/index.html" class="btn btn-primary mt-md">Browse Topics</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Regulations</h3>
+          <ul>
+            <li><a href="fda.html">FDA Regulations</a></li>
+            <li><a href="common-rule.html">Common Rule</a></li>
+            <li><a href="ich-gcp.html">ICH-GCP</a></li>
+            <li><a href="helsinki.html">Declaration of Helsinki</a></li>
+            <li><a href="gdpr.html">GDPR</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Topics</h3>
+          <ul>
+            <li><a href="../topics/informed-consent.html">Informed Consent</a></li>
+            <li><a href="../topics/irb-review.html">IRB Review</a></li>
+            <li><a href="../topics/vulnerable-populations.html">Vulnerable Populations</a></li>
+            <li><a href="../topics/data-privacy.html">Data Privacy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="../resources/glossary.html">Glossary</a></li>
+            <li><a href="../resources/quick-reference.html">Quick Reference</a></li>
+            <li><a href="../search.html">Search</a></li>
+            <li><a href="comparison.html">Compare Regulations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>About</h3>
+          <ul>
+            <li><a href="https://github.com/technical-communicator/Research-Regulation-Training-Guide">GitHub Repository</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Research Regulations Guide. Educational resource for research compliance.</p>
+        <p class="mt-sm">Last updated: <span class="last-updated">2025-11-17</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/filter.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+{
+  "regulations": [
+    {
+      "id": "fda-50",
+      "title": "FDA 21 CFR Part 50 - Protection of Human Subjects",
+      "shortName": "FDA 21 CFR 50",
+      "jurisdiction": "United States",
+      "authority": "Food and Drug Administration (FDA)",
+      "category": "Human Subjects Protection",
+      "lastUpdated": "2024-01-15",
+      "url": "https://www.ecfr.gov/current/title-21/part-50",
+      "summary": "Establishes standards for informed consent and safeguards the rights, safety, and welfare of subjects in clinical investigations regulated by the FDA.",
+      "keyRequirements": [
+        "Informed consent requirements",
+        "Documentation of consent",
+        "Special protections for vulnerable populations",
+        "Emergency research exceptions"
+      ],
+      "applicability": "Clinical investigations involving FDA-regulated products (drugs, biologics, medical devices)",
+      "relatedTopics": ["informed-consent", "vulnerable-populations", "irb-review"]
+    },
+    {
+      "id": "fda-56",
+      "title": "FDA 21 CFR Part 56 - Institutional Review Boards",
+      "shortName": "FDA 21 CFR 56",
+      "jurisdiction": "United States",
+      "authority": "Food and Drug Administration (FDA)",
+      "category": "IRB Requirements",
+      "lastUpdated": "2024-01-15",
+      "url": "https://www.ecfr.gov/current/title-21/part-56",
+      "summary": "Establishes requirements for the organization, composition, function, and operation of Institutional Review Boards that review clinical investigations.",
+      "keyRequirements": [
+        "IRB composition and membership",
+        "IRB functions and operations",
+        "IRB review criteria",
+        "Documentation and recordkeeping"
+      ],
+      "applicability": "IRBs reviewing FDA-regulated research",
+      "relatedTopics": ["irb-review", "continuing-review", "expedited-review"]
+    },
+    {
+      "id": "common-rule",
+      "title": "Common Rule - 45 CFR Part 46",
+      "shortName": "Common Rule",
+      "jurisdiction": "United States",
+      "authority": "Office for Human Research Protections (OHRP)",
+      "category": "Human Subjects Protection",
+      "lastUpdated": "2019-01-21",
+      "url": "https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html",
+      "summary": "Federal policy for the protection of human subjects in research, adopted by multiple federal departments and agencies.",
+      "keyRequirements": [
+        "IRB review and approval",
+        "Informed consent",
+        "Additional protections for vulnerable populations",
+        "Exempt research categories",
+        "Limited IRB review"
+      ],
+      "applicability": "Research conducted, supported, or regulated by Common Rule departments and agencies",
+      "relatedTopics": ["informed-consent", "irb-review", "exempt-research", "vulnerable-populations"]
+    },
+    {
+      "id": "ich-gcp",
+      "title": "ICH E6(R2) Good Clinical Practice",
+      "shortName": "ICH-GCP",
+      "jurisdiction": "International",
+      "authority": "International Council for Harmonisation (ICH)",
+      "category": "Clinical Trial Standards",
+      "lastUpdated": "2016-11-09",
+      "url": "https://www.ich.org/page/efficacy-guidelines",
+      "summary": "International ethical and scientific quality standard for designing, conducting, recording, and reporting trials that involve human subjects.",
+      "keyRequirements": [
+        "Protection of human subjects",
+        "Quality and integrity of trial data",
+        "Investigator responsibilities",
+        "Sponsor responsibilities",
+        "Essential documents",
+        "Risk-based quality management"
+      ],
+      "applicability": "Clinical trials intended for regulatory submission to ICH member countries",
+      "relatedTopics": ["clinical-trials", "data-integrity", "monitoring", "investigator-responsibilities"]
+    },
+    {
+      "id": "helsinki",
+      "title": "Declaration of Helsinki",
+      "shortName": "Declaration of Helsinki",
+      "jurisdiction": "International",
+      "authority": "World Medical Association (WMA)",
+      "category": "Ethical Principles",
+      "lastUpdated": "2013-10-01",
+      "url": "https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/",
+      "summary": "Statement of ethical principles for medical research involving human subjects, including research on identifiable human material and data.",
+      "keyRequirements": [
+        "Respect for all human beings",
+        "Risk-benefit assessment",
+        "Vulnerable groups and individuals",
+        "Scientific requirements and research protocols",
+        "Research ethics committees",
+        "Privacy and confidentiality",
+        "Informed consent"
+      ],
+      "applicability": "Physicians and other participants in medical research involving human subjects",
+      "relatedTopics": ["research-ethics", "informed-consent", "risk-assessment", "vulnerable-populations"]
+    },
+    {
+      "id": "hipaa",
+      "title": "HIPAA Privacy Rule - 45 CFR Parts 160 and 164",
+      "shortName": "HIPAA",
+      "jurisdiction": "United States",
+      "authority": "Department of Health and Human Services (HHS)",
+      "category": "Data Privacy",
+      "lastUpdated": "2013-01-25",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+      "summary": "National standards to protect individuals' medical records and other individually identifiable health information.",
+      "keyRequirements": [
+        "Protected Health Information (PHI) safeguards",
+        "Individual rights to access and control PHI",
+        "Authorization requirements for research",
+        "De-identification standards",
+        "Limited data sets",
+        "Business associate agreements"
+      ],
+      "applicability": "Covered entities and business associates handling PHI in research",
+      "relatedTopics": ["data-privacy", "phi-protection", "authorization", "de-identification"]
+    },
+    {
+      "id": "gdpr",
+      "title": "General Data Protection Regulation (GDPR)",
+      "shortName": "GDPR",
+      "jurisdiction": "European Union",
+      "authority": "European Union",
+      "category": "Data Privacy",
+      "lastUpdated": "2018-05-25",
+      "url": "https://gdpr-info.eu/",
+      "summary": "Regulation on data protection and privacy for individuals within the European Union and European Economic Area.",
+      "keyRequirements": [
+        "Lawful basis for data processing",
+        "Data subject rights (access, rectification, erasure, portability)",
+        "Privacy by design and by default",
+        "Data protection impact assessments",
+        "Data breach notification",
+        "International data transfers"
+      ],
+      "applicability": "Organizations processing personal data of EU residents, including research activities",
+      "relatedTopics": ["data-privacy", "data-protection", "consent", "data-rights"]
+    }
+  ],
+  "topics": [
+    {
+      "id": "informed-consent",
+      "title": "Informed Consent",
+      "description": "Requirements and best practices for obtaining and documenting informed consent from research participants.",
+      "relatedRegulations": ["fda-50", "common-rule", "ich-gcp", "helsinki"]
+    },
+    {
+      "id": "irb-review",
+      "title": "IRB Review Process",
+      "description": "Institutional Review Board requirements, composition, functions, and review procedures.",
+      "relatedRegulations": ["fda-56", "common-rule", "ich-gcp"]
+    },
+    {
+      "id": "vulnerable-populations",
+      "title": "Vulnerable Populations",
+      "description": "Additional protections and considerations for vulnerable research participants.",
+      "relatedRegulations": ["common-rule", "fda-50", "helsinki"]
+    },
+    {
+      "id": "data-privacy",
+      "title": "Data Privacy and Security",
+      "description": "Requirements for protecting participant privacy and securing research data.",
+      "relatedRegulations": ["hipaa", "gdpr", "ich-gcp"]
+    },
+    {
+      "id": "adverse-events",
+      "title": "Adverse Event Reporting",
+      "description": "Requirements for monitoring, documenting, and reporting adverse events in research.",
+      "relatedRegulations": ["fda-56", "ich-gcp"]
+    },
+    {
+      "id": "clinical-trials",
+      "title": "Clinical Trial Requirements",
+      "description": "Standards and requirements for conducting clinical trials.",
+      "relatedRegulations": ["ich-gcp", "fda-50", "fda-56"]
+    }
+  ],
+  "jurisdictions": {
+    "United States": ["fda-50", "fda-56", "common-rule", "hipaa"],
+    "European Union": ["gdpr"],
+    "International": ["ich-gcp", "helsinki"]
+  },
+  "categories": {
+    "Human Subjects Protection": ["fda-50", "common-rule"],
+    "IRB Requirements": ["fda-56"],
+    "Clinical Trial Standards": ["ich-gcp"],
+    "Ethical Principles": ["helsinki"],
+    "Data Privacy": ["hipaa", "gdpr"]
+  }
+}
